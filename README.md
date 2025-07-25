@@ -1,4 +1,4 @@
-# LoginRegisterApi
+# Login Register Api
 
 ## Proje Hakkında
 Bu proje, .NET 8 ile geliştirilmiş JWT tabanlı bir kullanıcı kayıt ve giriş (login/register) API'sidir. Kullanıcılar güvenli şekilde kayıt olabilir ve giriş yaptıklarında JWT token alarak korumalı endpointlere erişebilirler.
@@ -46,9 +46,9 @@ Bu proje, .NET 8 ile geliştirilmiş JWT tabanlı bir kullanıcı kayıt ve giri
 - **Body:**
   ```json
   {
-    "username": "kullaniciadi",
+    "username": "username",
     "email": "mail@example.com",
-    "password": "sifre"
+    "password": "password"
   }
   ```
 - **Başarılı yanıt:**
@@ -61,8 +61,8 @@ Bu proje, .NET 8 ile geliştirilmiş JWT tabanlı bir kullanıcı kayıt ve giri
 - **Body:**
   ```json
   {
-    "username": "kullaniciadi",
-    "password": "sifre"
+    "username": "username",
+    "password": "password"
   }
   ```
 - **Başarılı yanıt:**
@@ -74,7 +74,7 @@ Bu proje, .NET 8 ile geliştirilmiş JWT tabanlı bir kullanıcı kayıt ve giri
 ```json
 {
   "Jwt": {
-    "Key": "GizliBirAnahtarBurayaYazilacak",
+    "Key": "***",
     "Issuer": "LoginRegisterApi"
   },
   "ConnectionStrings": {
