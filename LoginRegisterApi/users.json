@@ -1,0 +1,17 @@
+[
+  {
+    "Username": "omer",
+    "PasswordHash": "$2a$11$J1NBuuwoPtMBDkCYb0gat.gZU8.ZerId1mOEAQ.jS.V6et3f9t7WS",
+    "Email": "ofp@gmail.com"
+  },
+  {
+    "Username": "omer123",
+    "PasswordHash": "$2a$11$v1dmPWx1CO.cFGSuf9.vNuoYp3/Bd86E8pFeqm2l1g.BommdXhWSW",
+    "Email": "omer@example.com"
+  },
+  {
+    "Username": "omerfaruk",
+    "PasswordHash": "$2a$11$jpwIsek1wlRhumgy4GrVKuwsyguh0PoAg4OIJ81s1maMt6uVfnwte",
+    "Email": "omerfaruk@example.com"
+  }
+]
