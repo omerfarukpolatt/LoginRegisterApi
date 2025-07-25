@@ -82,7 +82,3 @@ Bu proje, .NET 8 ile geliştirilmiş JWT tabanlı bir kullanıcı kayıt ve giri
   }
 }
 ```
-
-## Katkı ve Lisans
-- Katkıda bulunmak için pull request gönderebilirsiniz.
-- Bu proje MIT lisansı ile lisanslanmıştır. 
